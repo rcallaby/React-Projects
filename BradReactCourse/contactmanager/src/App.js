@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Contacts from './components/Contacts';
 import './App.css';
 
 class App extends Component {
@@ -6,7 +7,8 @@ class App extends Component {
 
    return <div classname="app">
        <h1>The Contact Manager App</h1>
-      </div>;
+          <Contacts />
+      </div>
   }
 }
 
