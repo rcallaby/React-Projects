@@ -1,13 +1,8 @@
-import React, { Component } from 'react'
+import React, { Fragment } from 'react'
+import spinner from './spinner.gif';
 
-class Spinner extends Component {
-    render() {
-        return (
-            <div>
-                <h1>Hello from Spinner</h1>                
-            </div>
-        )
-    }
-}
+const Spinner = () => <Fragment>
+      <img src={spinner} alt="Loading..." style={{ width: '200px', margin: 'auto', display: 'block' }} />
+    </Fragment>
 
 export default Spinner
